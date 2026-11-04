@@ -1,0 +1,14 @@
+# 原始资料和凭据不得入库
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+raw/
+inbox/
+private/
+APIONE正式上线群.md

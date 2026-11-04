@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-04",
+  "sources": [
+    {
+      "id": "apione-launch-chat-20261104",
+      "label": "APIONE正式上线群（本地导出，未发布原文）",
+      "sha256": "39972470b7d34e9a632ea9c2fb2f3f36853fee27d712befe414c19d3fbecd381",
+      "exported_at": "2026-11-04 13:41",
+      "first_message": "2026-09-29 21:22",
+      "last_message": "2026-11-04 13:00",
+      "parsed_timestamped_entries": 2673,
+      "export_declared_message_count": 2673,
+      "note": "时间为导出文本原样；计数口径可能含系统消息。仅文字可用，图片、文件及引用附件未读取。"
+    }
+  ]
+}
