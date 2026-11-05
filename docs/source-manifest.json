@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-05",
   "sources": [
     {
       "id": "apione-launch-chat-20261104",
@@ -12,6 +12,21 @@
       "parsed_timestamped_entries": 2673,
       "export_declared_message_count": 2673,
       "note": "时间为导出文本原样；计数口径可能含系统消息。仅文字可用，图片、文件及引用附件未读取。"
+    },
+    {
+      "id": "apione-package-rules-20261105",
+      "kind": "direct-user-confirmation",
+      "confirmed_on": "2026-11-05",
+      "label": "用户直接确认：APIONE 套餐及升级规则（一次性购买，非自动续费）",
+      "topics": [
+        "套餐价格与额度",
+        "28 天有效期",
+        "按剩余时间升级",
+        "到期清零与按量余额隔离",
+        "原子性及并发风控"
+      ],
+      "status": "业务已确认，线上待验收",
+      "supersedes": "2026-10-26 套餐升级折算待定状态"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 name: apione-billing-reconciliation
-description: 核对 APIONE 模型计费、分组特殊价格、媒体参数定价和上游对账；用于运营录价、收费异常与保存问题排查。
+description: 核对 APIONE 模型计费、分组特殊价格、媒体参数定价、套餐升级费用和上游对账；用于运营录价、收费异常与保存问题排查。
 ---
 
 # apione-billing-reconciliation
