@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-07",
   "sources": [
     {
       "id": "apione-launch-chat-20261104",
@@ -27,6 +27,191 @@
       ],
       "status": "业务已确认，线上待验收",
       "supersedes": "2026-10-26 套餐升级折算待定状态"
+    },
+    {
+      "id": "aigateway-system-source-20261107",
+      "kind": "repository-static-review",
+      "repository": "https://github.com/UltimateJob/AIGatewaySystem",
+      "visibility": "private",
+      "branch": "main",
+      "commit": "a1d1b14b74377eada25c04adcd7f66be4c24a363",
+      "reviewed_on": "2026-11-07",
+      "scope": "功能入口、公开接口契约、套餐/积分/定价实现、桌面/移动边界、办公/Worker与部署前提",
+      "verification": "仅静态核对；未运行项目测试或生产/付费操作",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "84e9936444a38b189edc32e01edd8ce596a2ebe793a33efd738a42b03a6ee74e"
+        },
+        {
+          "path": "README.md",
+          "sha256": "6f570c18666378cad3b557b106f18b7b06fe54b1faa6d727423d8c1e2cf8b392"
+        },
+        {
+          "path": "apione-desktop/README.md",
+          "sha256": "357269d56a86ddd22ab8d23dd6186a1afc0c9216cdf2dd877abfdfd82c6f0aab"
+        },
+        {
+          "path": "apione-desktop/ui/src/features/local-agent/loop.ts",
+          "sha256": "3ae29a9e991d493e59e2a7fb07e9796b5f960d4f371707c3da836bfe8e6101e3"
+        },
+        {
+          "path": "backend/cmd/apione-tgbot/bot.go",
+          "sha256": "97a8f943eb5004015d5e147ddd670adec1bce91e97333dce9a5a9498f69383b7"
+        },
+        {
+          "path": "backend/cmd/apione-tgbot/main.go",
+          "sha256": "0915be3a75a02dbdbad2cad3d9e27408a75b68ac273b91949c86a04e69c067b4"
+        },
+        {
+          "path": "backend/docs/artifact-worker.md",
+          "sha256": "c0292d7c8aa373af308c5ab692adc5cafe6af306e24aa0b22440d6b3cd51e28c"
+        },
+        {
+          "path": "backend/docs/backend-feature-manual.md",
+          "sha256": "99cfc9911f62430f1ea2a29a6c948b4e04279dd7ee0ce2d0442a267aa21d6a5a"
+        },
+        {
+          "path": "backend/docs/configuration.md",
+          "sha256": "1d89d9a577d10230993c30866c56dfe9362bdff7b70966ba7256430acba44f25"
+        },
+        {
+          "path": "backend/docs/office-capabilities.md",
+          "sha256": "3e293661953fe72bed7c53c859e408d2af2eb070d12c2d376cec57ca27d9cb13"
+        },
+        {
+          "path": "backend/go.mod",
+          "sha256": "9a169bc490475fef62749912e0a6122d892f09c1662b7e4ff72977e0ef068fee"
+        },
+        {
+          "path": "backend/internal/domain/points.go",
+          "sha256": "c94357ab1858c13eb6a7eb89b970805b9193a279737f88a489c968c3d2f02c71"
+        },
+        {
+          "path": "backend/internal/domain/subscription_upgrade.go",
+          "sha256": "82e30fc6d672bde122d65edcf50518fa3536dde8e3eb8931bfa5e35b43df409d"
+        },
+        {
+          "path": "backend/internal/handler/admin_pricing_group_overrides.go",
+          "sha256": "72a4ad9445d9f8ac6b5e1611a80ce9b4bfcea7eef587008183af794f8eaa8995"
+        },
+        {
+          "path": "backend/internal/handler/admin_pricing_group_overrides_time_rules_test.go",
+          "sha256": "a0012ccbc598ebcfcaaec66745329fc57e8d4544111e65efee97883d5d512296"
+        },
+        {
+          "path": "backend/internal/handler/admin_users.go",
+          "sha256": "02875c80720aed39f75e5782ed03a18cce41b969bcbd94ba5b5391ee3d5068b3"
+        },
+        {
+          "path": "backend/internal/handler/product_images.go",
+          "sha256": "71986e4a37bd1b34573e158e2cfede672ec91fd9eba3137a45bb0dc4a6929a4f"
+        },
+        {
+          "path": "backend/internal/handler/product_subscription_upgrade.go",
+          "sha256": "2ea326d75687731e0bb155e25b5b4006e889f4d03a33b73713009f7adb6227f0"
+        },
+        {
+          "path": "backend/internal/handler/product_v1.go",
+          "sha256": "b9f36ff5a44b9841eb16d6a56851216466a5e026d63de554bb8941d3ce2288a1"
+        },
+        {
+          "path": "backend/internal/handler/product_videos.go",
+          "sha256": "497c76115baaac62bd0f7931c64f25d3a617f72e8656f30dcd77ce0475345718"
+        },
+        {
+          "path": "backend/internal/handler/token_auth.go",
+          "sha256": "f89655b399369f292a1a0999dcdfe4456d6124f796c0976cf2d13d6b977d1ed3"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/points_lots.go",
+          "sha256": "715806b1aab5cd2cb270965751922b7f82a236f98e1d23240d60e1dc46a8ec8f"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/points_settlement.go",
+          "sha256": "b2b9c72f9536b6aafd931d48a14360f9655878f7abf77b11c635f44e652dbefb"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/subscription_upgrade.go",
+          "sha256": "106d001db0a170bbd318ff35e886f79227e4007370d0aa32e0855fbd540ae568"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/subscription_upgrade_test.go",
+          "sha256": "9e43eba73d4438ea0cad214326714b9399cd498cda04dd53aabf3e2430e7af17"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/user_multiplier_override_test.go",
+          "sha256": "8c92c5dcd81311715bbf2df89fc2adf999b73fb8b2075d8f1bace74030859243"
+        },
+        {
+          "path": "backend/internal/requestidempotency/operation.go",
+          "sha256": "18aaa7d3a5c5ba834cb39e525185fd32a00858f898d89f254e4da7ba4e1134e1"
+        },
+        {
+          "path": "desktop/README.md",
+          "sha256": "025e7d4327dab54f088df79c0b3598f564144e59af552a3c7a77789e1fc3956c"
+        },
+        {
+          "path": "desktop/docs/20-release-readiness.md",
+          "sha256": "573bf60b202415479c7eda2d78dd875425c3730ca9f7852b0dc0f75b0f783f5e"
+        },
+        {
+          "path": "docs/api/00-conventions.md",
+          "sha256": "7147c7207bfc4f1944a7bedcebbf8757cc79b4f42a7fc5444760b6792138d33e"
+        },
+        {
+          "path": "docs/api/02-models.md",
+          "sha256": "3e2ed2803559bab2bbd634b4c1239b399b99f860076c29a3cd194b2b0f255c20"
+        },
+        {
+          "path": "docs/api/03-chat.md",
+          "sha256": "121ee8e348b5499169e5eee5d13d0088a73dd0d17d5493100af8449bfdca26c3"
+        },
+        {
+          "path": "docs/api/04-generation.md",
+          "sha256": "07fb1bb07b521a0a3434d244ca70979006eb92efa634fc3de6dce54275b92262"
+        },
+        {
+          "path": "docs/api/05-api-keys.md",
+          "sha256": "1c52d94a214239dc513ef4a4322549eda8dca8e00a423d40ced23daa82a8ce72"
+        },
+        {
+          "path": "docs/api/06-commerce.md",
+          "sha256": "ae261e24a7d57635554f6e9ac2d57f0917eb970d00ea72ee57b5f2bd954e56ab"
+        },
+        {
+          "path": "docs/api/07-workspace-team.md",
+          "sha256": "8a0080763be189f19cae67dc98cf6cbab4bd52fd504321a06ce7cbb8f731549f"
+        },
+        {
+          "path": "docs/api/08-connectors-mcp.md",
+          "sha256": "de76895fed282e051d094f29478ef4074afdadfd34e36d28be0b1e285776d058"
+        },
+        {
+          "path": "docs/api/09-agent.md",
+          "sha256": "b9230fc1cf2c4321279add49fd175f4d67a7ed6ed3a1cb53570b58a9aa35bff3"
+        },
+        {
+          "path": "docs/deployment.md",
+          "sha256": "f3a29a2570cc9ed845318f694481431aa4b62024191d6a045c1a6d5c9cd37f96"
+        },
+        {
+          "path": "docs/design/2026-11-06-plan-upgrade-proration.md",
+          "sha256": "ee4f4def38010b1ea2279a426db807b6dcd62ec9fe0b049e41f0784e59d68825"
+        },
+        {
+          "path": "mobile/README.md",
+          "sha256": "46d194d59e77d1ec8dd000c20cc04f4b55dcd162f32c0e11549b45af8ce1cbec"
+        },
+        {
+          "path": "package.json",
+          "sha256": "f2ac2abdd07fc9c6389222e973e8b5d31b58f2f403b8ece1ab08d7736de638b5"
+        },
+        {
+          "path": "packages/api-client/src/subscription-upgrade.ts",
+          "sha256": "1a524bedc65fa70ceab8a2f5406e4764b61b4a2e22991d1cd113e9d721085331"
+        }
+      ]
     }
   ]
 }
