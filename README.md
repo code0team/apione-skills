@@ -2,9 +2,11 @@
 
 面向 APIONE 同事的公开知识与操作技能库。从聊天记录提炼可复用规则，供支持 Skills 的工具按需加载，也可直接阅读。
 
-当前整理日期：**2026-11-07**；套餐及升级规则包含 11 月 5 日用户直接确认的更新；原群聊来源消息覆盖 **2026-09-29 21:22 至 2026-11-04 13:00**。另纳入 11 月 7 日固定 commit 的项目源码静态核对。这些是知识证据快照，不是线上状态保证。原始聊天、个人信息、基础设施地址和凭据不在仓库中。
+当前整理日期：**2026-11-13**；套餐及升级规则包含 11 月 5 日用户直接确认的更新；原群聊来源消息覆盖 **2026-09-29 21:22 至 2026-11-04 13:00**。另纳入 11 月 7 日固定 commit 的项目源码静态核对。这些是知识证据快照，不是线上状态保证。原始聊天、个人信息、基础设施地址和凭据不在仓库中。
 
 统一入口：[APIONE skill](skills/apione/SKILL.md)。仅需安装一个 `apione`，包含产品规则、渠道路由、计费对账、客户端接入、排障验收及知识更新参考资料，按问题读取；新增 [项目功能](skills/apione/references/project-features.md)、[接入契约](skills/apione/references/api-contracts.md)、[实现状态](skills/apione/references/implementation-status.md)、[配置与运行](skills/apione/references/operations.md)。
+
+最新功能变化见 [11 月 13 日源码增量](skills/apione/references/project-update-2026-11-13.md)，按固定 commit 核对，未在本次执行产品或生产验收。
 
 ## 同事使用
 
