@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-07",
+  "updated_on": "2026-11-13",
   "sources": [
     {
       "id": "apione-launch-chat-20261104",
@@ -210,6 +210,180 @@
         {
           "path": "packages/api-client/src/subscription-upgrade.ts",
           "sha256": "1a524bedc65fa70ceab8a2f5406e4764b61b4a2e22991d1cd113e9d721085331"
+        }
+      ]
+    },
+    {
+      "id": "aigateway-system-source-20261113",
+      "kind": "repository-incremental-static-review",
+      "repository": "https://github.com/UltimateJob/AIGatewaySystem",
+      "visibility": "private",
+      "branch": "main",
+      "commit": "4ba12289142f12c78eaf4c6fbcbd2481436e3878",
+      "compared_to_commit": "a1d1b14b74377eada25c04adcd7f66be4c24a363",
+      "reviewed_on": "2026-11-13",
+      "scope": "推广归因、路由缓存、内容提取、媒体、身份团队、升级及分发增量",
+      "verification": "只读源码与文档；未运行产品测试、付费请求或生产部署",
+      "files": [
+        {
+          "path": "backend/docs/adaptive-routing.md",
+          "sha256": "68f9060b78f83b205efeb7bcba62753d85945da830605af99ca77511b7bed703"
+        },
+        {
+          "path": "backend/docs/routing-observability.md",
+          "sha256": "5406d98a95d2b6cc74618355886df1382e3a7580ac9d6189432aca2ea6fef569"
+        },
+        {
+          "path": "backend/internal/config/vars_content_sources.go",
+          "sha256": "e07487c8ceeb8f52c31d8c30c34cf10808d91bedc19db2c42b48134ddecf8f5f"
+        },
+        {
+          "path": "backend/internal/core/media_preparation.go",
+          "sha256": "ecd3b44ed563f59d1959c52e316dfa130043ebf81f47ed3006e1537a23ca3088"
+        },
+        {
+          "path": "backend/internal/domain/points.go",
+          "sha256": "c94357ab1858c13eb6a7eb89b970805b9193a279737f88a489c968c3d2f02c71"
+        },
+        {
+          "path": "backend/internal/domain/subscription_upgrade.go",
+          "sha256": "82e30fc6d672bde122d65edcf50518fa3536dde8e3eb8931bfa5e35b43df409d"
+        },
+        {
+          "path": "backend/internal/handler/admin_acquisition.go",
+          "sha256": "3eda2b375c2b37559f7771940941872414ab36c65ed22ac999d643f03d476787"
+        },
+        {
+          "path": "backend/internal/handler/admin_routing_observability.go",
+          "sha256": "46f7fb0345325d759824af21a3310b02edabe03d3db3d8fd945f07c4681b2ad8"
+        },
+        {
+          "path": "backend/internal/handler/product_acquisition.go",
+          "sha256": "e51c46c23917a7e2478c23e63c05ee1a6b6c9a43f976b352790f21ecf59884fa"
+        },
+        {
+          "path": "backend/internal/handler/product_content_sources.go",
+          "sha256": "ff1cea1f8425afe5ec6525b4af6a2b4248006134a5e266462fbe91ee83ff6a32"
+        },
+        {
+          "path": "backend/internal/handler/product_google_oauth.go",
+          "sha256": "58a48f2e9e69d337f3bc0d3b0000d2252a91134a74dffd7441a1ef31237c8e35"
+        },
+        {
+          "path": "backend/internal/handler/product_media_preparation.go",
+          "sha256": "1784cc30c0e3b3cc7fc5b8272dbab447b1190ddd7307df1103cc2830666d6241"
+        },
+        {
+          "path": "backend/internal/handler/product_organization_join_links.go",
+          "sha256": "463f86dd3e6e03f50889c53d4ec0025e72298c482212e07b83347b06202c54c1"
+        },
+        {
+          "path": "backend/internal/handler/product_square.go",
+          "sha256": "67e98a2325897b28eedb340cd186b0ce7bf63a5fd5df01ba2f8667daf4521420"
+        },
+        {
+          "path": "backend/internal/handler/product_support.go",
+          "sha256": "258a40a47d2ceaef20929daea8689d9a2a0f35fd13c49f525e0caf998f072737"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/points_settlement.go",
+          "sha256": "b2b9c72f9536b6aafd931d48a14360f9655878f7abf77b11c635f44e652dbefb"
+        },
+        {
+          "path": "backend/internal/repository/sqlite/subscription_upgrade.go",
+          "sha256": "3e965ea4298c1bbac059d846399bd0cdaf6b33fc9004c18fe764171c128c8a08"
+        },
+        {
+          "path": "backend/internal/router/router.go",
+          "sha256": "7b32c9143c8dd359ffddb299619caa42caaf1fab616eecc3a35c32f87acdf48f"
+        },
+        {
+          "path": "backend/internal/service/content_source.go",
+          "sha256": "741f604d366d5a4c5dae25858fa29900981a2c7366b88f4f91e037d2bb4aca8d"
+        },
+        {
+          "path": "backend/internal/service/media_preparation.go",
+          "sha256": "0e122918745575e8809881a2fcca8402cefe64a3e7cb55898d73671f0ef2ca58"
+        },
+        {
+          "path": "backend/web/src/pages/users/user-acquisition-card.tsx",
+          "sha256": "2a82a9db87b6f00f85a81703f17fc9e0b212c3fdf8ef23ab842352f19a5ca3e2"
+        },
+        {
+          "path": "desktop/docs/22-ux-improvements.md",
+          "sha256": "6a7b45370ba53df97285d1e32d53dce717bf188a1d9d263ccd927e39bccb1c5b"
+        },
+        {
+          "path": "desktop/docs/24-distribution-plan.md",
+          "sha256": "37a5496baa1a561c675eae76d56476f9e03b9fd8ea6cde16b53beb05f72b20d9"
+        },
+        {
+          "path": "desktop/docs/25-device-acceptance-checklist.md",
+          "sha256": "8b2433c51fd1b11fcf863adab650d535284b822d6f3f162e024ae8bb06829bf5"
+        },
+        {
+          "path": "desktop/npm/cli/README.md",
+          "sha256": "f1de18a7b918c6786132aeb0d009cdd45515d72c1e070f57fe7224b40ae06afb"
+        },
+        {
+          "path": "docs/acquisition-release.md",
+          "sha256": "e413487ec554747db8e29cbf8930011d58be1f83a41c45c364536a64c756c437"
+        },
+        {
+          "path": "docs/acquisition.md",
+          "sha256": "02bfd5f6ea5ddc3d25caf3678a2eb62fabd47f035be5289157bb5500b509adbc"
+        },
+        {
+          "path": "docs/api/02-models.md",
+          "sha256": "f124a07981b026a90b306cdb58a8d6c70d1d5d57ee3d33a9f83164c70374638d"
+        },
+        {
+          "path": "docs/api/04-generation.md",
+          "sha256": "6e2bf779cd0719f0fe195ed73fbe21aafea95e6814b5e1e8891c4bae30114de2"
+        },
+        {
+          "path": "docs/deployment.md",
+          "sha256": "018eb2e7b248b5592e481fb7ac07215197e3087238af4f5bf49f6e5442ee648e"
+        },
+        {
+          "path": "docs/design/content-extraction-engine.md",
+          "sha256": "c60f913ad15ee625b1488ad249760ca2c701d898c05286abe1b593f30935a071"
+        },
+        {
+          "path": "docs/google-one-tap.md",
+          "sha256": "99774e29dab83ab23ee7d7f87428809cc7887c8577efb4a3081529dd9573848f"
+        },
+        {
+          "path": "docs/reports/2026-11-08-content-remix.md",
+          "sha256": "f7367c6a6310ad58caff2fa3bd57891887a7e6749ae0336f306d6b197eae9c29"
+        },
+        {
+          "path": "docs/reports/2026-11-08-full-e2e-completion.md",
+          "sha256": "3daf318bbac77a7f90e58d32adbe445e4e5d9534e7a1c8dc1d2bdeaa7ace6837"
+        },
+        {
+          "path": "frontend/src/components/app/AuthGate.tsx",
+          "sha256": "34e5d1fa0a52ff8f06efddee3e6ec4b4e9fe95b0393d634e9b46d221cfec01a0"
+        },
+        {
+          "path": "frontend/src/lib/apple-media-upload.ts",
+          "sha256": "2cd4f7617f133235c3ee72349cf072e0349eedd772a246f25a13de7312b4bfff"
+        },
+        {
+          "path": "frontend/src/lib/generation-reference-recovery.ts",
+          "sha256": "b2d82beebe46655e2fd82a69db0815382b41524b7c6c683e81eda15d35dfb758"
+        },
+        {
+          "path": "frontend/src/lib/maxx-auth.ts",
+          "sha256": "57af5f69e5ce30348774b96fba23524ee7d0dac9a9e6dc574915d88ca0ce985d"
+        },
+        {
+          "path": "frontend/src/lib/upgrade-payment.ts",
+          "sha256": "352a68e6cbff112894f4c57d3f5ba05cbf85bc0d376585abbec04dea2e82b924"
+        },
+        {
+          "path": "scripts/release-acquisition.sh",
+          "sha256": "07850c7c82df452868949709534c6b9e6995bb5702fc37676cb7e91a57891f9e"
         }
       ]
     }
